@@ -1,0 +1,206 @@
+Day 1
+
+Database Concepts
+* MySQL (RDBMS) (Relational Database Management Systems)
+* Intro to Oracle v11g (Grid Computing)
+* (RDBMS + OODBMS)  (RDBMS + Object Oriented DBMS) —> ORDBMS
+* (Object Relational DBMS)
+* Intro to MongoDB v3.2 (Mongoose DB) (NoSQL database)
+* (Not Only SQL Database)
+
+
+MySQL
+* The word Computer was derived from the Latin word Computare —> To compute / calculate
+* The first computer was a calculator invented by Charles Babbage
+* It was called the Difference Engine.
+* The job of a computer is to convert Data into Information
+
+
+(Raw Facts)		(Processing)			(meaningful data on whose basis the management can take some decision or you can perform some action)
+Data 	—> 		Computer 	—-> 	Information
+(Input)								(Output)
+
+* Processing is the work done by the computer to convert the data into information
+* Database is a collection of large amounts of data
+* DBMS —> Database Management Systems e.g Excel
+* It is a readymade software that helps you to manage your data
+* ANSI definition —> American National Scientific Institute
+* According to ANSI, a DBMS is a collection of programs, that allows you to Insert Update Delete and Process       (Excel is created using C++)
+* Various DBMSs Available rn
+    * MS Excel, dBase, Foxbase, Foxpro, Clipper, Advanced Revelation, Dataease, Dataflex, DB Vista, Quattro Pro, Etc.
+
+* MS Excel Program is known as a Macro
+* 53% of the work in IT industry is done using Excel.      (LEARN EXCEL PROGRAMMING)
+* Commercial Excel costs 9000/-, MySQL costs 1.5lakh. Oracle costs 35,00,000 for 10 users.
+
+* RDBMS reduces the amount of time required for software development.
+* Largest programming in ORACLE is 9 lines of code…..
+* In RDBMS, data processing happens on the server side
+
+* Table is not a file
+    * But internally, every row of a table is an individual file.
+
+* Distributed Database (Different Databases can work simultaneously with shared data)
+* NTFS —> New Technology File System. (Used by Windows)
+* OFS —> Open files System. (Used by MySQL)
+* MySQL has a total of 80 commands.
+* Facebook uses MySQL
+
+
+Various RDBMS available
+* Informix
+    * Fastest in terms of processing speed
+    * Programming has to be done in Assembly language.
+* Oracle
+    * Most popular RDBMS (because the programming is very easy)
+    * Product of Oracle Corporation
+    * www.oracle.com
+    * #1 overall s/w company in the world
+    * #1 database s/w company in the world
+    * 63% of world commercial database market in Client-Server environment
+    * 86% of world commercial database market in the Internet environment
+    * Best s/2 development tools 
+    * Works on 113 OS’
+* Sybase
+    * Going down. Was #1 once
+    * Recently acquired by SAP
+* MS SQL Server
+    * Good RDBMS
+    * Only works with Windows OS
+    * 16% of the World’s commercial database market
+
+* Ingres
+* Postgres                                        All 3  Open Source free RDBMS
+* Unify
+
+* DB2
+    * Good RDBMS from IBM.
+* CICS                                            All 4’s  Server has to be a mainframe (Supercomputer)
+* TELON
+* IDMS
+
+
+* MS Access
+* Paradox                                        All 3 are Single User RDBMS (PC Based)
+* Satcom SQL
+
+* Oracle lite is a free Software limited to Single User that has all features of Oracle Enterprise 
+
+* MySQL
+    * MySQL was launched by a Swedish company in 1995
+    * Its name is a combination of “My” — the name of the co-founder Michael Widenius’ daughter and “SQL”
+    * It was an open-source free RDBMS.
+    * It is the most widely used cheap RDBMS
+    * Free-Software open-source projects that require a RDBMS often use MySQL
+    * Facebook, Twitter, Flicker, YouTube, Joomla, Google (not for searches), WordPress, Instagram
+        * For searching google uses their own software called Big Table.
+    * MySQL occupies 42% of the world’s open-source database market.
+    * Part of the widely used LAMP(Linux Apache MySQL Python/Pearl/PHP) open-source web application software stack (and other “AMP” stacks).
+        * WAMP —> Windows Apache MySQL Python/Pearl/PHP
+        * MAMP —>  MacOS Apache MySQL Python/Pearl/PHP
+        * XAMP —>  X is the GUI version of Unix.
+    * Sun Microsystems acquired MySQL in 2008.
+    * Oracle acquired Sun Microsystems in 2008.
+
+
+Various Software Development tools in MySQL
+* MySQL database
+    * store table data, retrieve table data, secure the table data.
+* SQL
+    * Structured Query Language
+    * Commonly Pronounced as “Sequel”
+    * Create, Drop, Alter, Insert, Update, Delete, Grant, Revoke, Select
+    * Conforms to ANSI standards (e.g  1 character = 1 Byte of storage.)
+    * Conforms to ISO standards (for Quality Assurance)
+    * Common for all RDBMS
+    * Initially Found by IBM (1975 - 1977).     Larry, Thomas, Scott, Chris , Huma, Gavin
+    * 90% comprises of C,C++ and 10% of Assembly
+    * Initially known as RQBE (Relational Query by Example)
+    * IBM gave RQBE free of cost of ANSI
+    * ANSI renamed RQBE to SQL
+    * Now controlled by ANSI(hence it is common for all RDBMS)
+* MySQL - PL
+    * MySQL programming Language
+    * programming language from MySQL
+    * used for database programming
+    * e.g. HRA_CLAC, TAX_CALX, ATTENDANCE_CALC, etc.
+* MySQL Command Line Client
+    * MySQL client software
+    * character based(text based)
+    * for thin client
+    * used for running SQL commands, MySQL commands and MySQL-PL programs
+* MySQL Workbench
+* MySQL Connectors
+* MySQL for Excel
+* MySQL Notifier
+* MySQL Enterprise Backup
+    * Used to copy the table data
+    * Used to take backups
+    * known as Export and Import 
+    * Export —> take backups
+    * Import —> Restore from the backups
+    * Used to transport the tables from one MySQL database into another MySQL database.
+* MySQL Enterprise High Availability
+* MySQL Enterprise Encryption
+* MySQL Enterprise Monitor
+* MySQL Query Analyzer
+
+
+
+
+SQL
+* Stands for Structured Query Language
+* Commonly pronounced as “Sequel”
+* Conforms to ANSI and ISO standards
+* Common fro all RDBMS
+
+4 sub-divisions of SQL
+* DDL (Data Definition Language) ——> Create, Drop, Alter
+* DML (Data Manipulation Language) ——> Insert, Update, Delete
+* DCL (Data Control Language) ——> Grant, Revoke
+* DQL (Data Query Language) ——> Select
+
+———————————————————————————————————————————————————————————————————————————————————————————
+
+Extra 5th division in MySQL RDBMS and Oracle RDBMS
+* Not an ANSI standard.
+* DTL / TCL (Data Transaction Language / Transaction Control Language) ——> Commit, Rollback, Savepoint
+* Extra DDL commands ——> Rename, Truncate
+
+———————————————————————————————————————————————————————————————————————————————————————————
+
+Extra in Oracle RDBMS only
+* DML ——> Merge (Used to merge data from two tables), Upsert (Combination of Update and Insert)
+
+
+
+Rules for Tablenames;
+* Max 30 characters
+* A - Z, a - z, 0 - 9 allowed (tablename is case insensitive)
+* has to begin with an alphabet
+* Special characters like $, #, _ are allowed
+* In MySQL, to use # in tablename and column name, enclose it in back quotes
+* ` ` back-quotes
+* 134 reserved words not allowed in tablename
+* //Download Oracle Documentation and MySQL Documentation
+* https://docs.oracle.com
+
+MySQL Datatypes;
+* Char (fixed length)
+    * Allows any character
+    * max 255 characters
+    * default width is 1 character
+    * Wastage of HD space
+    * Searching and retrieval is very fast
+    * e.g. PanNo, Aadhar, etc.
+
+* Varchar (variable length)
+    * Stands for variable character
+    * max 65,535 characters (64kb -1)
+    * no default width (width has to be specified)
+    * Conserve on HD space
+    * searching and retrieval is slow
+    * Address, City, etc.
+
+
+//Download 11g Express Edition
